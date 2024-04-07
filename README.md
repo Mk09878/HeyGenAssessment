@@ -190,6 +190,17 @@ To manage project dependencies and isolate them from other projects on your syst
     python Server/app.py
     ```
 
+    You can now run the manual_test.py file
+
+    ```
+    python manual_test.py
+    ```
+
+    This file simulates hitting the 2 server endpoints through the client
+
+    You could also send curl requests to the server directly if desired
+
+
 2. Run integration test:
 
     You may need to stop the server before running the integration test
